@@ -105,7 +105,7 @@ table{
 }
 .payment{
     margin-left: 10%;
-    gap: 5%;
+    gap: 10%;
     margin-top: 5%;
 }
 .funds{
@@ -147,7 +147,15 @@ table{
 }
 
 .store{
-    margin-left: 5%;
+    margin-left:5%;
+}
+.temperatures img{
+   width: 80%;
+   border-radius: 5%;
+}
+.range{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .email{
     text-align: center;
